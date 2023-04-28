@@ -11,7 +11,25 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+.country-list {
+  list-style: none;
+}
+.country-list-item {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.country-list-picture {
+  width: 50px;
+  border: #212121 solid 0.5px;
+}
+.country-picture {
+  width: 100px;
+  border: #212121 solid 0.5px;
+}
+.country-descr {
+  font-weight: 700;
+}
 #search-box {
   font: inherit;
   padding: 8px;
